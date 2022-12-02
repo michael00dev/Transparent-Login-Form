@@ -52,4 +52,11 @@ body {
   font-size: 18px;
   cursor: pointer;
   margin: 12px 0;
+  opacity: .7;
+  transition: .3s;
+}
+
+.btn:hover {
+  border: 2px solid turquoise;
+  opacity: 1;
 }
